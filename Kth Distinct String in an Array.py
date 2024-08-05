@@ -1,9 +1,7 @@
-Kth Distinct String in an Array
-Kth Distinct String in an Array
-`python
+
 class Solution:
    
-    `from collections import Counter
+    from collections import Counter
     def kthDistinct(self, arr: List[str], k: int) -> str:
         
 
@@ -14,7 +12,7 @@ class Solution:
         if k <= len(names):
             return names[k-1]
         else:
-            return ""`
+            return ""
             
 
 
